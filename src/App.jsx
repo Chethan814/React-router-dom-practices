@@ -11,7 +11,6 @@ import Contact from "./pages/contact";
 import Product from "./pages/ProductPages";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
-// import { Children } from "react";
 
 // const routeDef = createRoutesFromElements(
 //     <Route>
