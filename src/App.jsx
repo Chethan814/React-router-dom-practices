@@ -11,6 +11,7 @@ import Contact from "./pages/contact";
 import Product from "./pages/ProductPages";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
+import ProductDetails from "./pages/ProductDetails";
 
 // const routeDef = createRoutesFromElements(
 //     <Route>
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
             { path: "/", element: <Home /> },
             { path: "/contact", element: <Contact /> },
             { path: "/product", element: <Product /> },
+            { path: "/product/:productId", element: <ProductDetails /> },
         ],
     },
 ]);
